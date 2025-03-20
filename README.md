@@ -44,10 +44,17 @@
         
    </td>
    <td>
-      <h2><b>How to Reach Me</b></h2>
+      <h2> 📫&nbsp;How to Reach Me</h2>
+      <br>
+      <p>Please don't hesitate to contact me if you need further information or help. </p>
       <br>
       <a href="https://www.facebook.com/vinhpad/" target="_blank">
-      <img align="center" alt="vinhpad | Facebook" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" />
+      <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" />
+      <br>  
+      <a href="https://www.linkedin.com/in/mangoboss/" target="_blank">
+      <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+      <br>
+      
    </td>
   </tr>
 </table>
