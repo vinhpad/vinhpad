@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 ## I'm Mangoo Bosss
-![](https://komarev.com/ghpvc/?username=your-TORIOP23&color=0069b4)
+![](https://komarev.com/ghpvc/?username=your-vinhpad&color=0069b4)
 <table>
   <tr>
     <td>
@@ -9,7 +9,7 @@
        <ul>
         <li>🎓 I'm a student at UET - VNU - K66-C-CLC (K66-IT15)</li>
         <li>✨ Interested in Machine Learning and Optimization</li>
-        <li>🔭 I used to do a lot of Competitive Programming. </li>
+        <li>🔭 I used to do a lot of Competitive Programming </li>
        </ul>
        <p align="center">
          <br>
