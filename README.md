@@ -7,7 +7,7 @@
     <td>
       <h2> 💻 &nbsp;About Me </h2>
        <ul>
-        <li>🎓 I'm a student at UET - VNU - K66-C-CLC (K66-IT15)</li>
+        <li>🎓 I'm a master student at UET - VNU </li>
         <li>✨ Interested in Machine Learning and Optimization</li>
         <li>🔭 I used to do a lot of Competitive Programming </li>
        </ul>
