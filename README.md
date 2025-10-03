@@ -2,13 +2,11 @@
 
 # Hi there, I'm Vinh 👋
 
-### Full Stack Developer | ML Engineer | Competitive Programmer
+**Full Stack Developer • ML Engineer • Competitive Programmer**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=vinhpad&color=0069b4&style=flat-square)
 
 </div>
-
----
 
 ## 💫 About Me
 
@@ -18,16 +16,9 @@
 🌱 Always learning and building something new
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vinhpad&theme=tokyonight" alt="GitHub Profile Summary"/>
-</div>
+  
+[![GitHub Streak](https://streak-stats.demolab.com/?user=vinhpad&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=vinhpad&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinhpad&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vinhpad&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph"/>
 </div>
 
 ## 🛠️ Tech Stack
