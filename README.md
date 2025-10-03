@@ -10,7 +10,7 @@
 
 ---
 
-## � About Me
+## 💫 About Me
 
 🎓 Master Student at **UET - VNU**  
 💡 Interested in **Machine Learning** & **Algorithm Optimization**  
@@ -18,8 +18,16 @@
 🌱 Always learning and building something new
 
 <div align="center">
-  <img height="170em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=vinhpad&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinhpad&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vinhpad&theme=tokyonight" alt="GitHub Profile Summary"/>
+</div>
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=vinhpad&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinhpad&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vinhpad&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph"/>
 </div>
 
 ## 🛠️ Tech Stack
@@ -32,7 +40,7 @@
 
 **Tools:** Docker • Git • Linux • VS Code
 
-## � Connect With Me
+## 📫 Connect With Me
 
 <div align="center">
 
