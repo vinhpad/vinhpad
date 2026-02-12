@@ -6,7 +6,7 @@ To enable GitHub Pages for this blog, follow these steps:
 
 ### 1. Enable GitHub Pages in Repository Settings
 
-1. Go to your repository on GitHub: `https://github.com/vinhpad/vinhpad`
+1. Go to your repository on GitHub: `https://github.com/vinhpad/vinhpad.github.io`
 2. Click on **Settings** tab
 3. In the left sidebar, click on **Pages**
 4. Under **Build and deployment**:
@@ -22,7 +22,7 @@ Once this PR is merged to the `main` branch, the GitHub Actions workflow will au
 ### 3. Access Your Blog
 
 After the workflow completes (usually takes 1-2 minutes), your blog will be available at:
-- **URL**: `https://vinhpad.github.io/vinhpad/`
+- **URL**: `https://vinhpad.github.io/`
 
 ## 🔍 What Was Set Up
 
@@ -140,7 +140,7 @@ bundle exec jekyll serve
 - [x] GitHub Actions workflow configured
 - [ ] **TO DO**: Enable GitHub Pages in repository settings (Settings > Pages > Source: GitHub Actions)
 - [ ] **TO DO**: Merge PR to main branch
-- [ ] **TO DO**: Verify blog is live at `https://vinhpad.github.io/vinhpad/`
+- [ ] **TO DO**: Verify blog is live at `https://vinhpad.github.io/`
 
 ## 🎉 Next Steps
 

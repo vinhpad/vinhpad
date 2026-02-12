@@ -2,6 +2,8 @@
 title: Vinhpad Blog
 description: My personal blog on GitHub Pages
 author: Vinhpad
+url: "https://vinhpad.github.io"
+baseurl: ""
 
 # Build settings
 theme: minima
