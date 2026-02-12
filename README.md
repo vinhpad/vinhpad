@@ -5,7 +5,7 @@ This is my personal blog built with Jekyll and hosted on GitHub Pages.
 ## 🌐 Live Site
 
 The blog is automatically deployed to GitHub Pages and available at:
-- **GitHub Pages URL**: `https://vinhpad.github.io/vinhpad/`
+- **GitHub Pages URL**: `https://vinhpad.github.io/`
 
 ## 📝 About
 
