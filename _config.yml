@@ -1,0 +1,22 @@
+# Jekyll configuration for vinhpad blog
+title: Vinhpad Blog
+description: My personal blog on GitHub Pages
+author: Vinhpad
+
+# Build settings
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
