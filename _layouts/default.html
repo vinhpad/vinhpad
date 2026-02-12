@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/terminal.css" | relative_url }}">
+  </head>
+  <body class="terminal-body">
+    <div class="terminal-background"></div>
+    <header class="terminal-nav">
+      <div class="terminal-brand">
+        <span class="terminal-brand__dot"></span>
+        <a href="{{ "/" | relative_url }}">{{ site.title }}</a>
+      </div>
+      <nav class="terminal-links">
+        <a href="{{ "/" | relative_url }}">Home</a>
+        <a href="{{ "/about/" | relative_url }}">About</a>
+        <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+      </nav>
+    </header>
+    <main class="terminal-shell">
+      {{ content }}
+    </main>
+    <footer class="terminal-footer">
+      <span>© {{ site.time | date: "%Y" }} {{ site.author }}</span>
+      <span class="terminal-footer__status">Status: online</span>
+    </footer>
+  </body>
+</html>

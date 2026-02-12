@@ -3,8 +3,8 @@ layout: home
 title: Home
 ---
 
-# Welcome to Vinhpad Blog
+# Chào mừng đến Vinhpad Console
 
-This is my personal blog hosted on GitHub Pages. Here I share my thoughts, experiences, and knowledge.
+Đây là giao diện terminal dành cho blog cá nhân của Vinhpad. Tại đây bạn có thể xem nhanh các bài viết mới, trạng thái hệ thống, và các lối tắt tiện dụng.
 
-Check out my latest posts below!
+Hãy bắt đầu bằng việc khám phá những bài viết mới nhất bên dưới nhé!

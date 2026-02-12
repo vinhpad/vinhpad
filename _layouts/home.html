@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<section class="terminal-window">
+  <div class="terminal-window__header">
+    <span class="terminal-dot terminal-dot--red"></span>
+    <span class="terminal-dot terminal-dot--yellow"></span>
+    <span class="terminal-dot terminal-dot--green"></span>
+    <span class="terminal-window__title">vinhpad@blog:~</span>
+  </div>
+  <div class="terminal-window__body">
+    <div class="terminal-line">
+      <span class="terminal-prompt">vinhpad@blog</span>
+      <span class="terminal-path">:~</span>
+      <span class="terminal-command">$ cat welcome.txt</span>
+    </div>
+    <div class="terminal-output">
+      {{ content }}
+    </div>
+    <div class="terminal-line">
+      <span class="terminal-prompt">vinhpad@blog</span>
+      <span class="terminal-path">:~</span>
+      <span class="terminal-command">$ ls -lh ./latest-posts</span>
+    </div>
+    {% if site.posts.size > 0 %}
+    <ul class="terminal-posts" id="latest-posts">
+      {% for post in site.posts limit: 5 %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.categories %}
+        <span class="post-tags">{{ post.categories | join: ", " }}</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="terminal-muted">No posts yet. Create one in the _posts folder.</p>
+    {% endif %}
+    <div class="terminal-line terminal-line--muted">
+      <span class="terminal-prompt">vinhpad@blog</span>
+      <span class="terminal-path">:~</span>
+      <span class="terminal-command">$ systemctl status blog.service</span>
+    </div>
+    <div class="terminal-metrics">
+      <div>
+        <span class="terminal-metric__label">Posts</span>
+        <span class="terminal-metric__value">{{ site.posts | size }}</span>
+      </div>
+      <div>
+        <span class="terminal-metric__label">Last build</span>
+        <span class="terminal-metric__value">{{ site.time | date: "%Y-%m-%d %H:%M" }}</span>
+      </div>
+      <div>
+        <span class="terminal-metric__label">Interface</span>
+        <span class="terminal-metric__value">Terminal UI</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="terminal-panels">
+  <article class="terminal-panel">
+    <h2>System Info</h2>
+    <ul>
+      <li><span>Hostname</span> <strong>vinhpad.dev</strong></li>
+      <li><span>Owner</span> <strong>{{ site.author }}</strong></li>
+      <li><span>Theme</span> <strong>Terminal Console</strong></li>
+    </ul>
+  </article>
+  <article class="terminal-panel">
+    <h2>Quick Actions</h2>
+    <ul>
+      <li><span>./about.sh</span> <a href="{{ "/about/" | relative_url }}">Open about page</a></li>
+      <li><span>./feed.sh</span> <a href="{{ "/feed.xml" | relative_url }}">Read RSS feed</a></li>
+      <li><span>./posts.sh</span> <a href="{{ "/#latest-posts" | relative_url }}">View logs</a></li>
+    </ul>
+  </article>
+</section>
